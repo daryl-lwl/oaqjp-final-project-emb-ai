@@ -12,7 +12,5 @@ def emotion_detector(text_to_analyse):
     dominant_emotion = max(emotion, key=emotion.get)
     for emotion_label,score in emotion.items():
         print(emotion_label, ': ' , score ,',')
-    
-    return{}
     print('dominant_emotion: ',dominant_emotion)
     
